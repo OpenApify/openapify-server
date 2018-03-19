@@ -4,7 +4,9 @@ import * as url from 'url';
 import * as OpenApify from 'openapify';
 import {JSONfn} from 'jsonfn';
 
-const log = debug('openapify-server');
+
+const log = debug('openapify');
+OpenApify.SetLog(log);
 
 let Jobs: OpenApify.Job[] = [];
 

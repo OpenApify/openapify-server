@@ -15,7 +15,7 @@
     "cross-env": "^5.1.4",
     "debug": "^3.1.0",
     "jsonfn": "^0.31.0",
-    "openapify": "^1.0.2",
+    "openapify": "^1.0.3",
     "ts-node": "^5.0.1",
     "typescript": "^2.7.2"
   },
