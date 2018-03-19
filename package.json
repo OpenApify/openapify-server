@@ -1,0 +1,27 @@
+{
+  "name": "openapify-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env DEBUG=openapify* node node_modules/ts-node/dist/bin.js index.ts",
+    "watch": "node node_modules/nodemon/bin/nodemon.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "debug": "^3.1.0",
+    "jsonfn": "^0.31.0",
+    "openapify": "^1.0.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "nodemon": "^1.17.2",
+    "request": "^2.85.0"
+  }
+}
