@@ -1,6 +1,3 @@
-FROM alpine:3.6
-MAINTAINER Eun <eun@su.am>
-
 FROM buildpack-deps:jessie
 
 RUN groupadd --gid 1000 node \
