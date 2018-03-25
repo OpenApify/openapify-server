@@ -1,15 +1,10 @@
 # openapify-server
 
-An example of using OpenApify
+An OpenApify server.
 
 ```bash
 # start the server with
 yarn start
-
-# an simple example call
-node github-status.js
 ```
 
-## License 
-
-MIT.
+You can find examples in the [examples](examples) directory.

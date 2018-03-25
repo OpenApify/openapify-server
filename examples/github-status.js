@@ -1,7 +1,8 @@
+// This is an example using openapify
+
 var request = require('request');
 var JSONfn = require('jsonfn').JSONfn;
 
-// An example
 request({
     url: 'http://localhost:8000/sync',
     method: 'POST',
